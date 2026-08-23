@@ -13,9 +13,9 @@ from ultralytics.engine.model import Model
 from ultralytics.nn.tasks import RTDETRDetectionModel
 from ultralytics.utils.torch_utils import TORCH_1_11
 
-from .predict import RTDETRPredictor
-from .train import RTDETRTrainer
-from .val import RTDETRValidator
+from .detect.predict import RTDETRPredictor
+from .detect.train import RTDETRTrainer
+from .detect.val import RTDETRValidator
 
 
 class RTDETR(Model):
